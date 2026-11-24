@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Spingalo · Learn roulette before you spend a penny on it</title>
-<meta name="description" content="Spingalo teaches roulette in plain English, lets you practise on a real wheel with play money, and shows you honestly what every betting system does to your bankroll. iPhone app, 18+." />
-<meta name="theme-color" content="#061C14" />
-<meta property="og:title" content="Spingalo · Learn roulette before you spend a penny on it" />
-<meta property="og:description" content="Sixteen short lessons, a practice table with a system coach, every famous system tested honestly, and a chat for your table. Play money only." />
+<title>Spingalo · Roulette, properly understood</title>
+<meta name="description" content="Learn roulette in plain English, practise on a real wheel with play money, and see what every betting system really does to a bankroll. Free on iPhone. 18+." />
+<meta name="theme-color" content="#050F0B" />
+<meta property="og:title" content="Spingalo · Roulette, properly understood" />
+<meta property="og:description" content="Short lessons, a practice wheel with a system coach, and the truth about every betting system. Play money only." />
 <meta property="og:image" content="https://spingalo.app/assets/og-share.jpg" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://spingalo.app/" />
@@ -17,270 +17,137 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="site.css?v=1795530462" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="site.css?v=1795531133" />
 </head>
 <body>
 
 <header class="nav" id="nav">
-  <div class="container">
-    <a class="brand" href="#top" aria-label="Spingalo home"><img class="tile" src="assets/tile-64.png" alt="" width="34" height="34" style="width:34px;height:34px" /><img class="wordmark" src="assets/wordmark.png" alt="Spingalo" width="111" height="30" style="width:auto;height:30px" /></a>
-    <nav class="nav-links" id="navLinks">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Spingalo home"><img class="tile" src="assets/tile-64.png" alt="" width="32" height="32" style="width:32px;height:32px" /><img class="wordmark" src="assets/wordmark.png" alt="Spingalo" width="96" height="26" style="width:auto;height:26px" /></a>
+    <nav class="nav-links" id="links">
       <a href="#learn">Learn</a>
-      <a href="#app">Practise</a>
-      <a href="#systems">Systems</a>
-      <a href="#buddies">Buddies</a>
+      <a href="#try">Try it</a>
       <a href="#pro">Pro</a>
-      <a class="btn btn-gold btn-sm nav-cta" href="#get">Get the app</a>
+      <a class="get" href="https://apps.apple.com/app/id6838711379">Download</a>
     </nav>
-    <a class="btn btn-gold btn-sm" href="#get">Get the app</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <button class="menu" id="menu" aria-label="Menu"><span></span><span></span></button>
   </div>
 </header>
 
 <main id="top">
 
 <section class="hero">
-  <div class="hero-bg">
-    <div class="hero-felt" data-parallax="-0.08"></div>
-    <div class="hero-grain"></div>
-    <div class="hero-glow" data-parallax="-0.16"></div>
-    <div class="hero-fade"></div>
-  </div>
-  <div class="container">
+  <div class="wrap">
     <div class="hero-copy">
-      <p class="eyebrow reveal"><i></i> iPhone · Play money only · 18+</p>
-      <h1 class="reveal d1"><span>Learn roulette</span><span class="metal">before you spend</span><span>a penny on it.</span></h1>
-      <p class="lede reveal d2">Spingalo teaches the table in plain English, puts you on a real wheel with £100 of play money, and tells you the truth about every betting system you have ever heard of. No tips, no predictions, no real money.</p>
-      <div class="hero-ctas reveal d3">
-        <a class="store-badge" href="https://apps.apple.com/app/id6838711379" aria-label="Download on the App Store"><img src="assets/app-store-badge.svg" alt="Download on the App Store" /></a>
-        <a class="btn btn-ghost" href="#app">Try the table in your browser</a>
+      <h1 class="rv">Roulette,<br/><em>properly</em> understood.</h1>
+      <p class="lede rv d1">Learn the game in plain English, practise on a real wheel with play money, and see what every betting system actually does to a bankroll.</p>
+      <div class="hero-ctas rv d2">
+        <a class="badge" href="https://apps.apple.com/app/id6838711379" aria-label="Download on the App Store"><img src="assets/app-store-badge.svg" alt="Download on the App Store" /></a>
+        <a class="link" href="#try">Try it in your browser</a>
       </div>
-      <div class="hero-meta reveal d3">
-        <div><b>16</b>short lessons, two minutes each</div>
-        <div><b>9</b>systems, tested honestly</div>
-        <div><b>£0</b>of your money at risk</div>
-      </div>
-    </div>
-    <div class="hero-visual reveal d2">
-      <div class="float-pill pill-a" data-parallax="0.06"><i></i> Ball landed on <b>19 red</b></div>
-      <div class="wheel-wrap" id="wheelWrap">
-        <svg id="heroWheel" viewBox="0 0 400 400" aria-hidden="true"></svg>
-        <div class="wheel-ball"><i></i></div>
-        <div class="wheel-pointer"></div>
-      </div>
-      <div class="float-pill pill-b" data-parallax="-0.05"><i style="background:#E3B341;box-shadow:0 0 12px #E3B341"></i> Coach: <b>£10 on Red</b> next</div>
-      <div class="float-pill pill-c" data-parallax="0.04"><i style="background:#E0303B;box-shadow:0 0 12px #E0303B"></i> Martingale busts <b>1 night in 5</b></div>
+      <p class="hero-small rv d3">Free on iPhone &nbsp;·&nbsp; Play money only &nbsp;·&nbsp; 18+</p>
     </div>
   </div>
-  <div class="scroll-cue"><i></i>Scroll</div>
+  <div class="wheel" aria-hidden="true"><svg id="wheelSvg" viewBox="0 0 400 400"></svg><div class="ball"><i></i></div></div>
 </section>
 
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track">
-    <span><b>01</b>Learn the table</span><span><b>02</b>Practise with play money</span><span><b>03</b>A coach for every system</span><span><b>04</b>The honest systems lab</span><span><b>05</b>Chat with your table</span><span><b>06</b>Play safe, 18+</span>
-    <span><b>01</b>Learn the table</span><span><b>02</b>Practise with play money</span><span><b>03</b>A coach for every system</span><span><b>04</b>The honest systems lab</span><span><b>05</b>Chat with your table</span><span><b>06</b>Play safe, 18+</span>
-  </div>
-</div>
-
-<section id="truths">
-  <div class="container">
-    <div class="section-head">
-      <div class="reveal"><p class="eyebrow">Three things nobody tells a new player</p><h2>The wheel is simple.<br/>The stories around it are not.</h2></div>
-      <p class="lede reveal d1">Most people learn roulette from a mate, a forum or a video selling a system. Spingalo starts from what is actually true.</p>
-    </div>
-    <div class="grid-3">
-      <article class="card reveal" data-parallax="0.03">
-        <div class="ill"><svg viewBox="0 0 200 150" aria-hidden="true"><defs><linearGradient id="g1" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#F6DC8E"/><stop offset="1" stop-color="#A67C1B"/></linearGradient></defs><g transform="translate(100 78)"><circle r="62" fill="#0A2A1E" stroke="url(#g1)" stroke-width="4"/><g id="pk"></g><path d="M-10 -58 A58 58 0 0 1 10 -58 L7 -40 A40 40 0 0 0 -7 -40 Z" fill="#1F7A4B" stroke="#F6DC8E" stroke-width="1.5"/><circle r="38" fill="#0A2A1E" stroke="url(#g1)" stroke-width="3"/><text y="7" text-anchor="middle" font-family="Playfair Display" font-weight="800" font-size="26" fill="#F5DEA0">0</text></g></svg></div>
-        <span class="tag">The zero</span>
-        <h3>One green pocket pays for the whole casino</h3>
-        <p>Thirty-seven pockets, paid out as if there were thirty-six. That gap is the house edge: about £2.70 kept from every £100 bet, over time. Every lesson in Spingalo starts from that number.</p>
+<section class="show" id="learn">
+  <div class="wrap">
+    <div class="panels">
+      <article class="panel" data-i="0">
+        <h2>Learn the whole game in an afternoon.</h2>
+        <p class="lede">Sixteen two-minute lessons, from what the green zero is for to how Labouchere behaves on a bad night. Each one has a demo you tap through and a short check at the end.</p>
+        <div class="inline"><div class="device"><div class="screen"><img class="on" src="assets/screens/03-learn.jpg" alt="The Learn screen with lessons and progress" loading="lazy" /></div></div></div>
       </article>
-      <article class="card reveal d1" data-parallax="-0.03">
-        <div class="ill"><svg viewBox="0 0 200 150" aria-hidden="true"><path d="M10 110 C 40 112, 60 108, 80 104 S 130 96, 150 86 S 185 72, 192 66" fill="none" stroke="#F2CC63" stroke-width="3" stroke-linecap="round"/><path d="M10 112 C 25 60, 35 140, 55 92 S 85 150, 100 70 S 135 130, 150 60 S 180 118, 192 44" fill="none" stroke="#E0303B" stroke-width="3" stroke-linecap="round" opacity=".9"/><text x="14" y="30" font-family="Inter" font-size="11" fill="#A8BFB1">Same price, different ride</text></svg></div>
-        <span class="tag">Systems</span>
-        <h3>A system changes the ride, not the price</h3>
-        <p>Martingale, Fibonacci, Labouchere and the rest decide how much you bet next. They give you lots of small wins and a rare big loss, or the other way round. None of them changes the 2.70%.</p>
+      <article class="panel" data-i="1">
+        <h2>Practise on a real wheel with play money.</h2>
+        <p class="lede">Start with £100, bet anywhere on the layout, and let the coach tell you the next stake in whichever system you are learning. Nothing is ever real money.</p>
+        <div class="inline"><div class="device"><div class="screen"><img class="on" src="assets/screens/02-play.jpg" alt="The practice table after a spin" loading="lazy" /></div></div></div>
       </article>
-      <article class="card reveal d2" data-parallax="0.03">
-        <div class="ill"><svg viewBox="0 0 200 150" aria-hidden="true"><g transform="translate(100 80) rotate(-8)"><ellipse rx="78" ry="46" fill="#0A2A1E" stroke="#F2CC63" stroke-width="3"/><ellipse rx="52" ry="30" fill="none" stroke="#A67C1B" stroke-width="2"/><ellipse rx="26" ry="14" fill="#0E3B2A" stroke="#F2CC63" stroke-width="2"/></g><circle cx="152" cy="52" r="6" fill="#F4F0E6"/><path d="M40 128 L160 112" stroke="#A8BFB1" stroke-width="1.5" stroke-dasharray="4 4"/><text x="40" y="144" font-family="Inter" font-size="11" fill="#A8BFB1">A slightly off-level table</text></svg></div>
-        <span class="tag">Real edges</span>
-        <h3>The only real edges are physical</h3>
-        <p>A worn wheel, a tilted table, a ball you can time. Those have beaten roulette in the real world, and the app explains each one. An app that promises to predict a random spin cannot, and Spingalo says so.</p>
+      <article class="panel" data-i="2">
+        <h2>Five thousand nights in a second.</h2>
+        <p class="lede">Run Martingale, Fibonacci or any other system thousands of times and see how often you walk away up, and how often you lose the lot.</p>
+        <div class="inline"><div class="device"><div class="screen"><img class="on" src="assets/screens/06-lab.jpg" alt="Systems Lab results for Martingale" loading="lazy" /></div></div></div>
+      </article>
+      <article class="panel" data-i="3">
+        <h2>Play alongside your friends.</h2>
+        <p class="lede">Share a six-letter code, chat while you play, and send a system across with one tap. No accounts, no sign-ups.</p>
+        <div class="inline"><div class="device"><div class="screen"><img class="on" src="assets/screens/05-buddies.jpg" alt="Betting Buddies chat" loading="lazy" /></div></div></div>
       </article>
     </div>
-    <p class="statement reveal">Spingalo is not a tipping service. <b>It is the friend who knows the game, sitting next to you.</b></p>
-  </div>
-</section>
-
-<section class="truth" id="learn">
-  <div class="container">
-    <div class="truth-grid">
-      <div class="reveal">
-        <p class="eyebrow">Learn</p>
-        <h2 style="margin-top:16px">Sixteen lessons. No maths words.</h2>
-        <p class="lede" style="margin-top:22px">Start with what roulette actually is and finish knowing exactly what Labouchere does to a losing streak. Every lesson is two or three minutes, has a live demo you tap through, and ends with a quick check so you know it went in.</p>
-        <div class="truth-list">
-          <div>The basics: the wheel, the table, how payouts work, your first spin step by step, the casino's cut in plain words, and how to play safely.</div>
-          <div>The systems: flat betting, Martingale, Paroli, d'Alembert, Fibonacci, Labouchere, 1-3-2-6, James Bond and Oscar's Grind, each worked through with £5 chips.</div>
-          <div>Then you take it to the table, and the coach tells you the next bet in the system you are learning.</div>
-        </div>
-      </div>
-      <div class="reveal d1">
-        <blockquote class="quote">"Bet on Red or Black. If you lose, double your bet. When you finally win, you get back everything you lost plus one chip. Eight losses in a row and your next bet would be £1,280."<small>From the Martingale lesson</small></blockquote>
-        <div class="stat-row">
-          <div class="stat"><b data-count="37">0</b><span>pockets on a European wheel, one of them green</span></div>
-          <div class="stat"><b data-count="2.70" data-dec="2" data-suffix="%">0</b><span>kept by the house from every bet, over time</span></div>
-          <div class="stat"><b data-count="35" data-suffix=" to 1">0</b><span>what a single number pays when it lands</span></div>
-        </div>
-      </div>
+    <div class="stage">
+      <div class="device" id="showDevice"><div class="screen">
+        <img class="on" src="assets/screens/03-learn.jpg" alt="" />
+        <img src="assets/screens/02-play.jpg" alt="" />
+        <img src="assets/screens/06-lab.jpg" alt="" />
+        <img src="assets/screens/05-buddies.jpg" alt="" />
+      </div></div>
     </div>
   </div>
 </section>
 
-<section id="how">
-  <div class="container">
-    <div class="section-head">
-      <div class="reveal"><p class="eyebrow">Learn by doing</p><h2>Read it. Tap it. Spin it.</h2></div>
-      <p class="lede reveal d1">The lessons and the table are one thing. Every idea you read, you try with chips a minute later.</p>
-    </div>
-    <div class="steps">
-      <div class="step reveal"><span class="num">1</span><div class="phone-shot" data-parallax="0.05"><img src="assets/screens/03-learn.jpg" alt="The Learn screen: seven basics lessons and nine system lessons with progress" loading="lazy" /></div><h3>Pick a lesson</h3><p>Seven basics, then every system. Ticks and quiz scores show what you have done.</p></div>
-      <div class="step reveal d1"><span class="num">2</span><div class="phone-shot" data-parallax="-0.05"><img src="assets/screens/04-lesson.jpg" alt="A lesson with a live table demo you tap through" loading="lazy" /></div><h3>Tap through the demo</h3><p>A real table lights up the numbers each bet covers while you read what it pays.</p></div>
-      <div class="step reveal d2"><span class="num">3</span><div class="phone-shot" data-parallax="0.05"><img src="assets/screens/02-play.jpg" alt="The practice table after a spin landing on 19 red" loading="lazy" /></div><h3>Spin for real</h3><p>Play money, a real wheel, and a coach that places the system's next bet for you.</p></div>
-    </div>
+<div class="wrap"><div class="rule"></div></div>
+
+<section class="honest space">
+  <div class="wrap">
+    <h2 class="rv">The house keeps £2.70 of every £100 you bet. No betting system changes that, and Spingalo shows you exactly why.</h2>
+    <p class="lede rv d1" style="margin-top:28px">Find a French table that offers la partage and it drops to £1.35. That is the kind of thing worth knowing before you sit down.</p>
   </div>
 </section>
 
-<section class="preview" id="app">
-  <div class="container">
-    <div class="preview-grid">
-      <div class="reveal">
-        <p class="eyebrow">Try it now</p>
-        <h2 style="margin-top:16px">The app, running in this page.</h2>
-        <p class="lede" style="margin-top:22px" id="previewLede">This is the real Spingalo running inside a phone frame, with a few lessons already done so you can see how it feels. Tap the table, pick a coach, press Spin.</p>
-        <div class="hints" id="hints">
-          <div class="hint"><i>1</i><div><b>Open Play</b> and tap any number or box to put a £5 chip on it.</div></div>
-          <div class="hint"><i>2</i><div><b>Choose a coach</b> such as Martingale and let it place the next bet.</div></div>
-          <div class="hint"><i>3</i><div><b>Press Spin</b> and watch the ball settle. Your balance updates like the real thing.</div></div>
-        </div>
-        <p class="preview-note">Play money only. Nothing here places a real bet or takes a payment.</p>
-      </div>
-      <div class="phone-stage reveal d1">
-        <div class="phone-glow"></div>
-        <div class="phone" id="phone" data-tilt>
-          <div class="phone-screen">
-            <iframe id="appFrame" title="Spingalo app preview" loading="lazy"></iframe>
-            <div class="phone-loading" id="phoneLoading"><div class="spin"></div>Setting the table</div>
-            <div class="phone-fallback">
-              <div class="tour-track" id="tourTrack">
-                <img src="assets/screens/01-home.jpg" alt="" /><img src="assets/screens/02-play.jpg" alt="" /><img src="assets/screens/03-learn.jpg" alt="" /><img src="assets/screens/06-lab.jpg" alt="" /><img src="assets/screens/05-buddies.jpg" alt="" /><img src="assets/screens/07-edges.jpg" alt="" />
-              </div>
-              <button class="tour-nav tour-prev" id="tourPrev" aria-label="Previous screen">‹</button>
-              <button class="tour-nav tour-next" id="tourNext" aria-label="Next screen">›</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<section class="try space" id="try">
+  <div class="wrap">
+    <h2 class="rv">Have a spin.</h2>
+    <p class="lede rv d1">This is the real app, running in the page. Tap the table, choose a coach, press Spin.</p>
+    <div class="device rv d2" id="tryDevice"><div class="screen"><iframe id="appFrame" title="Spingalo" loading="lazy"></iframe><div class="loading" id="loading">Setting the table</div></div></div>
+    <small>Play money. Nothing here is a real bet.</small>
   </div>
 </section>
 
-<section class="systems" id="systems">
-  <div class="container">
-    <div class="sys-grid">
-      <div class="reveal">
-        <p class="eyebrow">The systems lab</p>
-        <h2 style="margin-top:16px">Five thousand nights at the table, in a second.</h2>
-        <p class="lede" style="margin-top:22px">Pick a system, a wheel, a bankroll and a target. The lab plays thousands of sessions and shows what the forum posts leave out: how often you walk away up, and how often you lose the lot.</p>
-        <div class="chips" id="sysChips">
-          <button class="chip on" data-sys="martingale">Martingale<small>Very high risk</small></button>
-          <button class="chip" data-sys="paroli">Paroli<small>Low risk</small></button>
-          <button class="chip" data-sys="dalembert">d'Alembert<small>Medium</small></button>
-          <button class="chip" data-sys="fibonacci">Fibonacci<small>High</small></button>
-          <button class="chip" data-sys="flat">Flat<small>Low</small></button>
-        </div>
-      </div>
-      <div class="chart reveal d1" id="chart">
-        <div class="chart-head"><b id="chartTitle">Martingale</b><span>£500 bankroll · £10 on red · target +£100 · 5,000 sessions</span></div>
-        <div class="bars">
-          <div class="bar"><span class="lab">Hit the target</span><div class="trk"><div class="fill" id="bHit"></div></div><span class="val" id="vHit">0%</span></div>
-          <div class="bar red"><span class="lab">Lost the lot</span><div class="trk"><div class="fill" id="bBust"></div></div><span class="val" id="vBust">0%</span></div>
-          <div class="bar"><span class="lab">Still playing</span><div class="trk"><div class="fill" id="bLive"></div></div><span class="val" id="vLive">0%</span></div>
-        </div>
-        <p class="foot" id="chartFoot">Most nights end a little up. Roughly one night in five ends with the whole £500 gone, when a losing run meets the table limit. The average, over all of them, is the house edge.</p>
-      </div>
+<section class="pro space" id="pro">
+  <div class="wrap">
+    <div class="rv">
+      <h2>Spingalo Pro</h2>
+      <p class="lede" style="margin-bottom:34px">For when you want every number behind the game.</p>
+      <div class="price">£4.99<small>a month</small></div>
+      <p class="note">7-day free trial. Cancel any time in Settings.</p>
+      <div class="cta"><a class="badge" href="https://apps.apple.com/app/id6838711379" aria-label="Download on the App Store"><img src="assets/app-store-badge.svg" alt="Download on the App Store" /></a></div>
     </div>
+    <ul class="perks rv d1">
+      <li>The full edges library<span>34 rated</span></li>
+      <li>Every system in the Systems Lab<span>9 systems</span></li>
+      <li>Check any wheel's results for fairness<span>bias tracker</span></li>
+      <li>What an offer is really worth<span>calculators</span></li>
+      <li>New edges and studio notes<span>monthly</span></li>
+    </ul>
   </div>
 </section>
 
-<section id="buddies">
-  <div class="container">
-    <div class="two rev">
-      <div class="reveal" style="display:flex;justify-content:center"><div class="phone-shot" style="width:min(320px,80vw)" data-parallax="0.05"><img src="assets/screens/05-buddies.jpg" alt="Betting Buddies: a table code, three buddies and a chat with a shared system" loading="lazy" /></div></div>
-      <div class="reveal d1">
-        <p class="eyebrow">Betting buddies</p>
-        <h2 style="margin-top:16px">Your table, your mates, one code.</h2>
-        <p class="lede" style="margin-top:22px">Share a six-letter code and your friends join your table. Chat while you play, send someone the system you are trying, and they can load it onto their own table with one tap. No accounts, no sign-ups.</p>
-        <div class="truth-list">
-          <div>Messages and shared systems live on the table, not in your contacts.</div>
-          <div>Works offline too. Anything you type stays on your phone until the table is back.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="pro" id="pro">
-  <div class="container">
-    <div class="section-head" style="margin-bottom:40px">
-      <div class="reveal"><p class="eyebrow">Spingalo Pro</p><h2>Everything the serious player wants to know.</h2></div>
-      <p class="lede reveal d1">The lessons, the table and the first systems are free. Pro opens the whole library and the tools.</p>
-    </div>
-    <div class="pro-card reveal d1">
-      <p class="eyebrow">Monthly membership</p>
-      <div class="price">£4.99<small> a month</small></div>
-      <p style="color:var(--muted);font-size:14px">7-day free trial. Cancel any time in Settings.</p>
-      <ul class="perks">
-        <li>All 34 edges, rated by how real they are, with the method for each</li>
-        <li>Every system in the lab, with ruin rates and spin-by-spin charts</li>
-        <li>The bias tracker: log a live wheel and let the maths say if it is fair</li>
-        <li>Bonus value, cashback and comp calculators that tell you when a deal is worth it</li>
-        <li>New edges and studio notes every month</li>
-      </ul>
-      <a class="btn btn-gold" href="https://apps.apple.com/app/id6838711379">Start in the app</a>
-    </div>
-  </div>
-</section>
-
-<section class="get" id="get">
-  <div class="container">
-    <h2 class="reveal">Know the wheel.<br/><span class="metal">Keep the bankroll.</span></h2>
-    <p class="lede reveal d1">Free on the App Store. Play money only, so the first thing you lose is a bad idea, not a tenner.</p>
-    <div class="get-row reveal d2">
-      <a class="store-badge" href="https://apps.apple.com/app/id6838711379" aria-label="Download on the App Store"><img src="assets/app-store-badge.svg" alt="Download on the App Store" /></a>
-      <span class="age" title="18 and over">18+</span>
-    </div>
+<section class="end space">
+  <div class="wrap">
+    <h2 class="rv">Know the wheel before you play it.</h2>
+    <div class="row rv d1"><a class="badge" href="https://apps.apple.com/app/id6838711379" aria-label="Download on the App Store"><img src="assets/app-store-badge.svg" alt="Download on the App Store" /></a></div>
   </div>
 </section>
 
 </main>
 
 <footer>
-  <div class="container">
+  <div class="wrap">
     <div>
-      <a class="brand" href="#top"><img class="tile" src="assets/tile-64.png" alt="" width="34" height="34" style="width:34px;height:34px" /><img class="wordmark" src="assets/wordmark.png" alt="Spingalo" width="111" height="30" style="width:auto;height:30px" /></a>
-      <p class="fine"><b>Spingalo is an education and bankroll tool.</b> Roulette has a built-in house edge and no betting system changes that. The practice table uses play money. There is no real-money gambling in the app, no deposits and no links to gambling operators. 18+.</p>
-      <p class="fine">If gambling is a problem, GamCare is free and confidential on <b>0808 8020 133</b>.</p>
+      <a class="brand" href="#top"><img class="tile" src="assets/tile-64.png" alt="" width="32" height="32" style="width:32px;height:32px" /><img class="wordmark" src="assets/wordmark.png" alt="Spingalo" width="96" height="26" style="width:auto;height:26px" /></a>
+      <p><b>An education and bankroll tool.</b> Roulette has a built-in house edge and no betting system changes it. The practice table uses play money. There is no real-money gambling in the app, no deposits and no links to gambling operators. 18+.</p>
+      <p>If gambling is a problem, GamCare is free and confidential on <b>0808 8020 133</b>.</p>
     </div>
     <div>
       <div class="links"><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="terms.html">Terms</a><a href="mailto:opera@operasolutions.tech">Contact</a></div>
-      <p class="fine">2026 Opera AI Limited. Apple, the Apple logo and App Store are trademarks of Apple Inc.</p>
-      <p class="fine">Spingalo is published by Opera AI Limited, registered in England and Wales, company number 16422655. Registered office: Old Engineering Works, 47 Queens Road, Weybridge, KT13 9UH.</p>
+      <p>2026 Opera AI Limited. Apple, the Apple logo and App Store are trademarks of Apple Inc.</p>
+      <p>Spingalo is published by Opera AI Limited, registered in England and Wales, company number 16422655. Registered office: Old Engineering Works, 47 Queens Road, Weybridge, KT13 9UH.</p>
     </div>
   </div>
 </footer>
 
-<script src="main.js?v=1795530462" defer></script>
+<script src="main.js?v=1795531133" defer></script>
 </body>
 </html>
