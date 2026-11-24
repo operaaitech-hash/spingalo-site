@@ -33,6 +33,7 @@ section{position:relative;padding:clamp(84px,11vw,150px) 0}
 .nav .container{display:flex;align-items:center;justify-content:space-between;height:76px;gap:24px}
 .brand{display:flex;align-items:center;gap:11px;font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:.06em;color:var(--gold-pale)}
 .brand img{width:34px;height:34px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.4)}
+.brand img.wordmark{width:auto;height:30px;border-radius:0;box-shadow:none;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}
 .nav-links{display:flex;gap:28px;font-size:14px;color:var(--muted);align-items:center}
 .nav-links .nav-cta{display:none}
 .nav-links a{transition:color .25s}
