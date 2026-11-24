@@ -220,12 +220,12 @@ footer .fine b{color:var(--muted)}
   .eyebrow{letter-spacing:.18em;font-size:10.5px}
   .statement{font-size:22px}
   .nav.open{background:#061C14}
-  .nav-links{position:fixed;inset:76px 0 auto 0;background:#061C14;flex-direction:column;gap:0;padding:12px 24px 20px;display:none;border-bottom:1px solid var(--line)}
+  .nav-links{position:fixed;inset:76px 0 auto 0;background:#061C14;flex-direction:column;align-items:stretch;gap:0;padding:12px 24px 24px;display:none;border-bottom:1px solid var(--line)}
   .nav-links a{padding:14px 0;border-bottom:1px solid var(--line);font-size:16px}
   .nav.open .nav-links{display:flex}
   .nav-toggle{display:flex}
   .nav>.container>.btn{display:none}
-  .nav-links .nav-cta{display:inline-flex;margin-top:16px;align-self:flex-start;border-bottom:0}
+  .nav-links .nav-cta{display:inline-flex;margin-top:18px;align-self:flex-start;border-bottom:0;padding:0 22px}
   footer .container{grid-template-columns:1fr}
   .bar{grid-template-columns:110px 1fr 54px}
   .chart-head{flex-direction:column;align-items:flex-start;gap:4px}
